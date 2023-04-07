@@ -4,7 +4,7 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
-                "/usr/include/SDL2/SDL.h"
+                "/usr/include/SDL2/"
             ],
             
             "defines": [],
