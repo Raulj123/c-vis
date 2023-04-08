@@ -10,6 +10,7 @@ using namespace std;
 void drawState(vector<int> v, SDL_Renderer *renderer, int loopCounter, int swap);
 void bubbleSort(vector<int> v);
 void selectionSort(vector<int>v);
+void insertionSort(vector<int>v);
 int main()
 {
 	random_device rando;					// creating random device object
@@ -22,7 +23,7 @@ int main()
 	}
 	char choice;
 	cout << "Welcome to sorting visualizer! Please pick a sorting algorithms:\n";
-	cout << "A) Bubble Sort\nB)Selction Sort\n";
+	cout << "A) Bubble Sort\nB)Selction Sort\nC)Insertion Sort";
 	cin >> choice;
 	choice = toupper(choice);
 	switch (choice)
@@ -32,6 +33,11 @@ int main()
 		break;
 	case 'B':
 		selectionSort(v);
+		break;
+	case 'C':
+		insertionSort(v);
+		break;
+
 	}
 	
 
@@ -117,5 +123,18 @@ void selectionSort(vector<int>v){
 			SDL_Delay(100);
 	}
 
+
+}
+void insertionSort(vector<int>v){
+
+	for(int i =1; i< v.size(); i++){
+		int temp = v[i];		// hold temp value to compare numbers before it, starts at index 1
+		int j = i -1;			//used to compare temp with, index before temp
+
+		while(j >= 0 && v[j] > temp){		//j is less than or equal to 0? and value before temp is greater than temp
+			v[j+1] = v[j];		//replace value and location of j where temp is at 
+			j--;		// decrement j 
+		}
+	}
 
 }
