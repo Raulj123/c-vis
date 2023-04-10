@@ -138,3 +138,11 @@ void insertionSort(vector<int>v){
 	}
 
 }
+// 9 1 7 
+// temp =1;     int j = index=0
+//	while(j<= 0 && v[j] > temp)
+//		v[j+1 = index 1] = v[j] == 9 
+//		j--
+//		j = -1
+//		v[j+1 index=0] = 1
+//		1 9 7 
