@@ -10,5 +10,5 @@ Program generates random nums from 1-99 and sorts them using
 
 
 <p align="center">
-  <img width="300" height="300" src="/media/ezgif.com-optimize.gif">
+  <img width="200" height="200" src="/media/ezgif.com-optimize.gif">
 </p>
