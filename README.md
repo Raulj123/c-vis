@@ -7,4 +7,5 @@ Program generates random nums from 1-99 and sorts them using
 3) Insertion 
 ### may add more in the future 
 <hr>
-![ezgif com-optimize](https://user-images.githubusercontent.com/112786129/230835827-8451d13d-62d4-4e0e-9ac4-3255ac974dcd.gif)
+![Alt Text](https://user-images.githubusercontent.com/112786129/230835827-8451d13d-62d4-4e0e-9ac4-3255ac974dcd.gif)
+
